@@ -1,6 +1,8 @@
 # mean-example
 MEAN example from Academind
 
+Application to create, edit, delete posts.
+
 ## Angular
 A Client-Side (browser) Framework which allows you to build Single-Page-Applications (SPA)
 
@@ -46,14 +48,49 @@ Allows for instant re-rendering, instant user feedback and makes building highly
 
 ### Client (Browser)
 
+* Angular
 * Presentation/UI
 * Single-Page-Application (not necessarily server by Node backend)
 
 ### Server
 
+* Node + express + mongoDB
 * Bussiness Logic
 * Persistent Data Storage
 * Authentication Logic
 
-The client and the server communicate with requests/responses using JSON data format.
+The client and the server communicate with requests/responses using JSON data format. AJAX (Background)
 
+## Outline
+
+* Getting Started
+* Angular Frontend
+* Node.js + Express Backend
+* Handling Data with MongoDB
+* Enhancing the App
+* Image Upload
+* Data Pagination
+* Authentication
+* Authorization
+* Error Handling
+* Optimizations
+* Deployment
+
+## The Angular Frontend
+
+### Understanding Angular Components
+
+* Angular Thinks in "Components"
+
+### 14 - Listening to events
+
+* Event binding `(click)="onMethod()"`
+
+### 15 - Outputting Content
+
+* String interpolation of method/property `{{ property/method }}`
+* Property binding `[value]="code"`
+
+### 16 - Getting user input
+
+* Local reference `#postInput`
