@@ -94,3 +94,22 @@ The client and the server communicate with requests/responses using JSON data fo
 ### 16 - Getting user input
 
 * Local reference `#postInput`
+* Two-way binding `[(ngModel)] = enteredValue`
+
+### 17 - Angular Material
+
+* `ng add @angular/material`
+* `MatInputModule`, `MatCardModule`, `MatButtonModule`
+* `<mat-card>`
+* `<mat-form-field>`
+* `matInput`
+* `mat-raised-button`
+* `color="primary|warn|accent"`
+
+### 18 - Adding a Toolbar
+
+* `MatToolbarModule`
+* `<mat-toolbar>`
+
+
+The toolbar is added as a new component. Each time you add a new component you have to put inside a new folder with the  component HTML and ts files. Also you have to import it inside `app.module.ts` and declare it inside the declarations array for the `@NgModule`. Finally, to render it you have to use it in the `app.component.html`.
